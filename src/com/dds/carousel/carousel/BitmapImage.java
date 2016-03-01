@@ -10,6 +10,7 @@ public class BitmapImage implements SmartImage {
         this.bitmap = bitmap;
     }
 
+    
     public Bitmap getBitmap(Context context) {
         return bitmap;
     }

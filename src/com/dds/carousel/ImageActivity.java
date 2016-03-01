@@ -9,7 +9,11 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
-
+/**
+ * …Ë÷√Õº∆¨
+ * @author dds
+ *
+ */
 public class ImageActivity extends Activity {
 
 	private CarouselView mAdView;

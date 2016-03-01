@@ -25,7 +25,8 @@ import android.widget.LinearLayout;
  *
  */
 public class CarouselView extends LinearLayout {
-
+   
+	
 	private Context mContext;
 
 	private ViewPager mViewPager = null;
