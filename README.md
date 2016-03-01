@@ -6,7 +6,7 @@
    你的项目就已经完成来了两个功能，一个是引导界面，一个是图片轮播，是不是很开心
    
  carousel_view.xml：
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/ad_rl"
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
@@ -24,16 +24,15 @@
         android:gravity="center"
         android:orientation="horizontal" >
     </LinearLayout>
-</RelativeLayout>
+   </RelativeLayout>
 
-/**
-	 * 装填图片数据url列表
-	 * 
-	 * @param imageUrlList
-	 *            url列表
-	 * @param imageCycleViewListener
-	 *            点击监听
-	 * @param stype
-	 *            指示器的样式
-	 */
+装填图片数据url列表
+
+	  @param imageUrlList
+	             url列表
+	 @param imageCycleViewListener
+	            点击监听
+	 @param stype
+	            指示器的样式
+	 
 mAdView.setImageUrlResources(mImageUrl, mAdCycleViewListener, stype);
